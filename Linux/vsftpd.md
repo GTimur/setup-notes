@@ -30,6 +30,7 @@ setsebool -P ftpd_full_access 1
 ##### Создадим в системе пользователя и группу virtual:
 
 ```
+groupadd virtual
 useradd virtual -g virtual
 cat /etc/passwd | grep virtual:
 
