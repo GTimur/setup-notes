@@ -7,7 +7,8 @@ yum -y install vsftpd
 yum -y install ftp
 yum -y install compat-db
 
-sudo vi /etc/vsftpd/vsftpd.conf
+mv /etc/vsftpd/vsftpd.conf /etc/vsftpd/vsftpd.conf.bak
+vi /etc/vsftpd/vsftpd.conf
 
 anonymous_enable=NO
 local_enable=YES
