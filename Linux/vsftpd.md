@@ -91,7 +91,7 @@ pass4user
 #### Настройки в /etc/vsftpf/vsftpd.conf
 ```
 # =========================================================================
-# VSFTPD CONFIGURATION FILE (by TIMIJAN)
+# VSFTPD CONFIGURATION FILE (by GTG)
 # =========================================================================
 listen=YES
 listen_port=21
