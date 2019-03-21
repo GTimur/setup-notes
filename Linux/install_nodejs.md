@@ -7,14 +7,18 @@
 # yum install -y gcc-c++ make
 # curl -sL https://rpm.nodesource.com/setup_11.x | sudo -E bash -
 ```
+
 ##### Stable version:
 ```
 yum install -y gcc-c++ make
 curl -sL https://rpm.nodesource.com/setup_10.x | sudo -E bash -
 ````
 
-
 #### Install Node.js on CentOS
 ```
 sudo yum install nodejs
+npm update npm -g
+
+node --version
+npm -v
 ```
