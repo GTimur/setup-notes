@@ -22,3 +22,17 @@ npm update npm -g
 node --version
 npm -v
 ```
+
+
+### Using NVM (preffered for local install):
+```
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+nvm --version
+
+nvm install node
+nvm install --lts
+nvm ls
+nvm use 10.13.0
+nvm alias default 10.13.0
+```
+
